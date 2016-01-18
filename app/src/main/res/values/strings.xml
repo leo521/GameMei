@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GameMei</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- 社区 -->
+    <string name="task_list">任务榜</string>
+    <string name="game_answer">游戏问答</string>
+    <string name="experience_sharing">经验分享</string>
+
+
+    <string name="drawer_btn_rss">关注管理</string>
+    <string name="subscribe_my_category">我的关注</string>
+    <string name="subscribe_more_category">更多关注</string>
+    <string name="subscribe_manager_category_info">单击增删关注</string>
+    <string name="subscribe_manager_category_info_2">单击增删关注，长按拖拽排序</string>
+</resources>

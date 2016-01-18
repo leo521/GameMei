@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/game_info_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/game_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/game_desc"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/game_image"
+            android:layout_alignLeft="@id/game_name"
+            android:layout_alignStart="@id/game_name"
+            android:singleLine="true"
+            android:text="天天跑酷，又名天天酷跑，根据时下最火爆最流行的手机跑酷类游戏"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/game_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/game_image"
+            android:layout_toEndOf="@id/game_image"
+            android:layout_toRightOf="@id/game_image"
+            android:text="天天跑酷"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="0dp"
+        android:background="#eeeeee" />
+
+</LinearLayout>

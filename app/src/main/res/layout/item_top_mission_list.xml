@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_mission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_mission_image"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:src="@drawable/default_round_head" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_mission_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_toRightOf="@id/linearLayout"
+            android:singleLine="true"
+            android:text="芭芭拉"
+            android:textColor="#1996e6"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tv_mission_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tv_mission_title"
+            android:layout_alignBottom="@id/tv_mission_title"
+            android:layout_toEndOf="@id/tv_mission_title"
+            android:layout_toRightOf="@id/tv_mission_title"
+            android:text="进行中" />
+
+        <TextView
+            android:id="@+id/tv_mission_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_mission_title"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_toEndOf="@id/linearLayout"
+            android:layout_toRightOf="@id/linearLayout"
+            android:text="疯狂的小雨滴增长速度极快，它会淹没你的家园哦！"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/tv_mission_content"
+            android:layout_alignRight="@id/tv_mission_content"
+            android:layout_below="@id/tv_mission_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/browse" />
+
+            <TextView
+                android:id="@+id/tv_mission_browse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1000" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:src="@mipmap/time" />
+
+            <TextView
+                android:id="@+id/tv_mission_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016-1-15" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="0dp"
+        android:background="#eeeeee" />
+
+</LinearLayout>
