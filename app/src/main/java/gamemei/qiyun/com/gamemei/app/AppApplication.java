@@ -12,6 +12,8 @@ public class AppApplication extends Application {
     private static AppApplication mAppApplication;
     private SQLHelper sqlHelper;
 
+    private static int   a = 1;
+
     @Override
     public void onCreate() {
         mAppApplication = this;
