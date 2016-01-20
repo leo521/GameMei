@@ -24,6 +24,7 @@ public class AppApplication extends Application {
         if (getApplicationInfo().packageName.equals(getCurProcessName(getApplicationContext())) ||
                 "io.rong.push".equals(getCurProcessName(getApplicationContext()))) {
 
+
             /**
              * IMKit SDK调用第一步 初始化
              */
